@@ -1,0 +1,100 @@
+/* Estilos para o layout básico do Cadastro */
+body {
+  font-family: "Jura", sans-serif; /* Fonte do corpo */
+}
+
+h1 {
+  text-align: center; /* Alinha o título ao centro */
+  font-size: 40px; /* Tamanho do título */
+  margin-bottom: 20px; /* Margem inferior do título */
+}
+
+form {
+  display: flex; /* Usa flexbox para o layout */
+  flex-direction: column; /* Organiza os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  padding: 30px; /* Adiciona espaçamento interno */
+  max-width: 550px; /* Largura máxima do contêiner do formulário */
+  margin: auto; /* Centraliza o formulário na tela */
+  background-color: #333; /* Fundo do formulário */
+  border: none;
+  border-radius: 30px; /* Arredonda os cantos do formulário */
+  width: 85%; /* Formulário ocupa 85% da largura do contêiner */
+}
+
+div {
+  margin-bottom: 20px; /* Margem inferior para cada grupo de entrada */
+  width: 100%; /* Largura total para o div */
+}
+
+label {
+  display: block; /* Exibe o rótulo como bloco */
+  text-align: left; /* Alinha o texto à esquerda */
+  font-family: "Outfit"; /* Fonte do rótulo */
+  font-size: 25px; /* Tamanho da fonte do rótulo */
+}
+
+.input-container {
+  display: flex; /* Usa flexbox para o layout do input */
+  align-items: center; /* Centraliza verticalmente */
+  margin-bottom: 15px; /* Margem inferior para o contêiner do input */
+}
+
+input {
+  max-width: 100%; /* Corrigido para ocupar toda a largura */
+  padding: 20px; /* Espaçamento interno do input */
+  border: none; /* Remove a borda padrão */
+  border-radius: 8px; /* Arredonda os cantos do input */
+  background-color: #444; /* Cor de fundo do input */
+  color: #fff; /* Cor do texto no input */
+  font-size: 1.2em; /* Tamanho da fonte no input */
+  flex: 1; /* Flexível para ocupar o espaço disponível */
+}
+
+input::placeholder {
+  color: #bbb; /* Cor do texto do placeholder */
+}
+
+.ButtonMicCadastro,
+.ButtonMic {
+  /* Estilo combinado para ambos os botões */
+  padding: 12px; /* Aumenta o espaçamento interno */
+  width: 100px; /* Largura fixa do botão */
+  height: 60px;
+  font-size: 28px; /* Tamanho da fonte do botão */
+  background-color: #ffffff; /* Cor de fundo do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Indica que é clicável */
+  border-radius: 5px; /* Arredonda os cantos do botão */
+  transition: background-color 0.3s; /* Transição suave na cor de fundo */
+}
+
+.ButtonMicCadastro:hover,
+.ButtonMic:hover {
+  /* Efeito hover para ambos os botões */
+  background-color: #9b9b9b; /* Cor de fundo ao passar o mouse */
+}
+
+.microphone-icon {
+  font-size: 30px; /* Tamanho do ícone do microfone */
+  align-items: center; /* Alinha ícones ao centro */
+  cursor: pointer; /* Indica que é clicável */
+  color: #000; /* Cor do ícone do microfone */
+}
+
+.CadastroButton, .BtnEntrar {
+  font-family: "Jura"; /* Fonte do botão de cadastro */
+  padding: 15px; /* Aumenta o espaçamento interno */
+  width: 100%; /* Botão ocupa toda a largura */
+  font-size: 20px; /* Tamanho da fonte do botão */
+  background-color: #ffffff; /* Cor de fundo do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Indica que é clicável */
+  border-radius: 5px; /* Arredonda os cantos do botão */
+  transition: background-color 0.3s; /* Transição suave na cor de fundo */
+}
+
+.CadastroButton:hover,
+.BtnEntrar:hover {
+  background-color: #777777; /* Cor de fundo ao passar o mouse */
+}

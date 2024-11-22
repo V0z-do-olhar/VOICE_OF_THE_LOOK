@@ -1,0 +1,129 @@
+/* Reset de margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+  font-family: "Jura", sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/*AJUDA*/
+
+.help-section h1 {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.help-section p {
+  text-align: left;
+  font-family: "Outfit";
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+
+/* Seção de contato */
+.contact-sectionn {
+  display: flex;
+  align-items: center;
+  margin: 40px 20px;
+  font-family: "Jura";
+}
+
+.contact-section {
+  display: flex;
+  margin: 20px 200px;
+}
+
+.contact-section input {
+  display: flex; /* Usa flexbox para o layout do input */
+  margin-bottom: 15px;
+}
+
+.contact-section input {
+  max-width: 540px; /* Corrigido para ocupar toda a largura */
+  padding: 20px; /* Espaçamento interno do input */
+  border: none; /* Remove a borda padrão */
+  border-radius: 8px; /* Arredonda os cantos do input */
+  background-color: #444; /* Cor de fundo do input */
+  color: #fff; /* Cor do texto no input */
+  font-size: 1.2em; /* Tamanho da fonte no input */
+  flex: 1; /* Flexível para ocupar o espaço disponível */
+}
+
+.contact-section input::placeholder {
+  color: #bbb; /* Cor do texto do placeholder */
+}
+
+.mic-button {
+  background-color: #fff;
+  width: 60px; /* Reduzido de 60% para 50% */
+  height: 62px; /* Reduzido de 57px para 45px */
+  color: #000;
+  padding: 0.5px; /* Reduzido de 1px para 0.5px */
+  margin-left: 3px; /* Reduzido de 5px para 3px */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px; /* Reduzido de 1.1rem para 1rem */
+}
+
+.mic-button:hover {
+  background-color: #777;
+}
+
+/*faq*/
+
+.faq-section {
+  max-width: 550px; /* Defina um limite de largura para a seção de FAQ */
+  margin: 0 auto; /* Centraliza a seção na página */
+  padding: 20px;
+}
+
+.faq {
+  background-color: #1a1a1ae7; /* Cor de fundo das perguntas */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 20px; /* Bordas arredondadas */
+  margin-bottom: 15px; /* Espaço inferior entre perguntas */
+  color: #fff; /* Cor do texto */
+}
+
+.faq h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.btn-container {
+  display: flex; /* Habilita o uso de flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-top: 15px; /* Espaço acima do botão */
+}
+
+.btnListen {
+  justify-content: center; /* Centraliza horizontalmente */
+  padding: 10px; /* Ajuste se necessário */
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  transition: background-color 0.5s;
+  width: 100px; /* Largura fixa */
+  height: 40px; /* Altura fixa */
+}
+
+.btnListen:hover {
+  background-color: #cececeaf; /* Cor ao passar o mouse sobre o botão */
+}
+
+.faqAnsewr {
+  font-family: "Outfit";
+  font-size: 15px;
+}
